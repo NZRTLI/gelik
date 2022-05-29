@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tapestry&family=Water+Brush&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  background: #000;
+}
+#header .header-general {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+#header .header-general__nav {
+  color: white;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+#header .header-general__nav a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0 20px;
+  transition: 0.4s;
+}
+
+#hero {
+  background: black;
+}
+#hero .hero-general__box {
+  display: flex;
+  position: relative;
+}
+#hero .hero-general__box h1 {
+  margin-top: 200px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #E5E5E5;
+  margin-bottom: 30px;
+}
+#hero .hero-general__box p {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+#hero .hero-general__box h2 {
+  margin-left: 30px;
+  margin-top: 165px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #D3CD2D;
+}
+#hero .hero-general__img {
+  position: absolute;
+  left: 400px;
+  top: 70px;
+}
+#hero .hero-general__img1 {
+  cursor: pointer;
+  position: absolute;
+  left: 100px;
+  top: 734px;
+}
+
+.merslogo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+#merslogo2 .merslogo2-general__title {
+  display: flex;
+  justify-content: space-between;
+}
+#merslogo2 .merslogo2-general__title h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 36px;
+  color: rgb(117, 109, 109);
+}
+#merslogo2 .merslogo2-general__title h2 {
+  margin-left: 20px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+#merslogo2 .merslogo2-general__title1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+#merslogo2 .merslogo2-general__title2 h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-left: 200px;
+}
+#merslogo2 .merslogo2-general__bot {
+  display: flex;
+}
+#merslogo2 .merslogo2-general__box {
+  margin-left: 40px;
+}
+#merslogo2 .merslogo2-general__box img {
+  margin-bottom: 20px;
+}
+#merslogo2 .merslogo2-general__box2 img {
+  margin-bottom: 10px;
+}
+
+#desin {
+  margin-top: 140px;
+}
+#desin .desin-general {
+  display: flex;
+  justify-content: space-between;
+}
+#desin .desin-general div {
+  margin-top: 25px;
+  height: 0;
+  border: 1px solid #F8F8F8;
+  width: 350px;
+}
+#desin .desin-general h1 {
+  font-family: "Rufina", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+#Galery {
+  margin-top: 140px;
+}
+#Galery .Galery-general {
+  display: flex;
+  justify-content: space-between;
+}
+#Galery .Galery-general div {
+  margin-top: 25px;
+  height: 0;
+  border: 1px solid #F8F8F8;
+  width: 350px;
+}
+#Galery .Galery-general h1 {
+  font-family: "Rufina", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
