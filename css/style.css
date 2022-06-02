@@ -92,6 +92,8 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
+  text-align: center;
   color: white;
 }
 
@@ -184,6 +186,332 @@ a {
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
+  color: #FFFFFF;
+}
+
+#design {
+  background: #000;
+}
+#design .design-general__title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#design .design-general__title h1 {
+  margin-top: 10px;
+}
+#design .design-general__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#design .design-general__item h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 95px;
+  color: #FFFFFF;
+  text-shadow: 8px 8px 233px #F4ECEC;
+}
+#design .design-general__item h2 {
+  margin-left: 50px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+#design .design-general__bot {
+  display: flex;
+}
+#design .design-general__bot h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#design .design-general__bot h2 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+#design .design-general__box {
+  display: flex;
+  justify-content: space-around;
+}
+#design .design-general__box h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+#design .design-general__box button {
+  cursor: pointer;
+  background: #1E1E1E;
+  border: none;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+#lili {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+#lili .lili-general__lil {
+  display: flex;
+  justify-content: space-between;
+}
+#lili .lili-general__lil div {
+  width: 300px;
+  height: 0;
+  border: 0.9px solid #F0EFEC;
+}
+
+#spec .spec-general__title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#spec .spec-general__title h1 {
+  margin-top: 10px;
+}
+#spec .spec-general__itel {
+  margin-left: 150px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 95px;
+  color: #FFFFFF;
+}
+#spec .spec-general__box {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#spec .spec-general__box h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFF7F7;
+  margin-bottom: 30px;
+}
+#spec .spec-general__box h2 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFF7F7;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+#spec .spec-general__img {
+  width: 305px;
+  height: 393px;
+  margin-left: 0;
+}
+#spec .spec-general__img1 {
+  margin-top: 50px;
+  width: 205px;
+  height: 273px;
+}
+#spec .spec-general__bot img {
+  width: 555px;
+  height: 400px;
+  position: absolute;
+  left: 500px;
+}
+
+#lil {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+#lil .lil-general__lili {
+  display: flex;
+  justify-content: space-between;
+}
+#lil .lil-general__lili h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+#lil .lil-general__lili div {
+  margin-top: 20px;
+  width: 300px;
+  height: 0;
+  border: 0.7px solid #F0EFEC;
+}
+
+#feat .feat-general__title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#feat .feat-general__title h1 {
+  margin-top: 10px;
+}
+#feat .feat-general__bot {
+  position: relative;
+  display: flex;
+}
+#feat .feat-general__bot h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 95px;
+  color: #FFFFFF;
+}
+#feat .feat-general__bot img {
+  position: absolute;
+  left: 360px;
+  top: 100px;
+}
+#feat .feat-general__box {
+  display: flex;
+}
+#feat .feat-general__box h1 {
+  margin-top: 120px;
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+#feat .feat-general__box h2 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+#feat .feat-general__box img {
+  margin-left: 150px;
+}
+
+#contact {
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+#contact .contact-general__lili {
+  display: flex;
+  justify-content: space-between;
+}
+#contact .contact-general__lili h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+#contact .contact-general__lili div {
+  width: 300px;
+  height: 0;
+  border: 0.9px solid #F0EFEC;
+}
+
+#read .read-general__title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+#read .read-general__title h1 {
+  margin-top: 10px;
+}
+#read .read-general__bot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#read .read-general__box {
+  background: #030303;
+  width: 387px;
+  height: 387px;
+}
+#read .read-general__box h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 39px;
+  align-items: center;
+  margin-left: 83px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+#read .read-general__box button {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-shadow: 0 4px 32px #F6F1F1;
+  background: #030303;
+  margin-top: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+#read .read-general__box__boxx {
+  display: flex;
+  flex-flow: column;
+}
+#read .read-general__box__boxx input {
+  margin-left: 40px;
+  margin-bottom: 50px;
+  width: 300px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+#read .read-general__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#read .read-general__item h1 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#read .read-general__item h2 {
+  font-family: "Red Rose", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
   color: #FFFFFF;
 }
 

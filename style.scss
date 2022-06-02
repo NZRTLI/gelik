@@ -79,6 +79,9 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  align-items: center;
+  text-align: center;
+
   color: white;
 }
 
@@ -152,18 +155,15 @@
 
 #desin {
   margin-top: 140px;
-
   .desin-general {
     display: flex;
     justify-content: space-between;
-
     div {
       margin-top: 25px;
       height: 0;
       border: 1px solid #F8F8F8;
       width: 350px;
     }
-
     h1 {
       font-family: 'Rufina', sans-serif;
       font-style: normal;
@@ -193,6 +193,358 @@
       font-size: 36px;
       line-height: 44px;
       color: #FFFFFF;
+    }
+  }
+}
+
+
+#design{
+  background: #000;
+  .design-general{
+    &__title{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      h1{
+        margin-top: 10px;
+      }
+    }
+    &__item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 76px;
+        line-height: 95px;
+        color: #FFFFFF;
+        text-shadow: 8px 8px 233px #F4ECEC;
+      }
+      h2{
+        margin-left: 50px;
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 65px;
+        color: #FFFFFF;
+      }
+    }
+    &__bot{
+      display: flex;
+      h1 {
+        font-family: 'Red Rose', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+      }
+      h2{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+    }
+    &__box{
+      display: flex;
+      justify-content: space-around;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+      }
+      button{
+        cursor: pointer;
+        background: #1E1E1E;
+        border: none;
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 35px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+#lili{
+  margin-top: 130px;
+  margin-bottom: 100px;
+  .lili-general{
+    &__lil{
+      display: flex;
+      justify-content: space-between;
+      div{
+        width: 300px;
+        height: 0;
+        border: 0.9px solid #F0EFEC;
+      }
+    }
+  }
+}
+
+#spec{
+  .spec-general{
+    &__title{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      h1{
+        margin-top: 10px;
+      }
+    }
+    &__itel{
+      margin-left: 150px;
+      font-family: 'Red Rose',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 56px;
+      line-height: 95px;
+      color: #FFFFFF;
+    }
+    &__box{
+      position: relative;
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFF7F7;
+        margin-bottom: 30px;
+      }
+      h2{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFF7F7;
+        margin-bottom: 30px;
+        margin-left: 10px;
+      }
+    }
+    &__img{
+      width: 305px;
+      height: 393px;
+      margin-left: 0;
+    }
+    &__img1{
+      margin-top: 50px;
+      width: 205px;
+      height: 273px;
+    }
+
+    &__bot{
+      img{
+        width: 555px;
+        height: 400px;
+        position: absolute;
+        left: 500px;
+      }
+
+    }
+  }
+}
+
+#lil{
+  margin-top: 130px;
+  margin-bottom: 100px;
+  .lil-general{
+    &__lili{
+      display: flex;
+      justify-content: space-between;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+      }
+      div{
+        margin-top: 20px;
+        width: 300px;
+        height: 0;
+        border: 0.7px solid #F0EFEC;
+      }
+    }
+  }
+}
+#feat{
+  .feat-general{
+    &__title{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      h1{
+        margin-top: 10px;
+      }
+    }
+    &__bot{
+      position: relative;
+      display: flex;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 76px;
+        line-height: 95px;
+        color: #FFFFFF;
+      }
+      img{
+        position: absolute;
+        left: 360px;
+        top: 100px;
+      }
+    }
+    &__box{
+      display: flex;
+      h1{
+        margin-top: 120px;
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 57px;
+        color: #FFFFFF;
+        margin-bottom: 50px;
+      }
+      h2{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+      }
+      img{
+        margin-left: 150px;
+      }
+    }
+  }
+}
+
+#contact{
+  margin-top: 130px;
+  margin-bottom: 100px;
+  .contact-general{
+    &__lili{
+      display: flex;
+      justify-content: space-between;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 45px;
+        color: #FFFFFF;
+      }
+      div{
+        width: 300px;
+        height: 0;
+        border: 0.9px solid #F0EFEC;
+      }
+    }
+  }
+}
+
+#read{
+  .read-general{
+    &__title{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      h1{
+        margin-top: 10px;
+      }
+    }
+    &__bot{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+    &__box{
+      background: #030303;
+      width: 387px;
+      height: 387px;
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 39px;
+        align-items: center;
+        margin-left: 83px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        color: #FFFFFF;
+      }
+      button{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 34px;
+        color: #FFFFFF;
+        text-shadow: 0 4px 32px #F6F1F1;
+        background: #030303;
+        margin-top: 50px;
+        margin-left: 50px;
+        cursor: pointer;
+      }
+      &__boxx{
+        display: flex;
+        flex-flow: column;
+        input{
+          margin-left: 40px;
+          margin-bottom: 50px;
+          width: 300px;
+          background: transparent;
+          border: none;
+          border-bottom:1px solid white;
+        }
+      }
+    }
+    &__block{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__item{
+      h1{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 34px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+      h2{
+        font-family: 'Red Rose',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+      }
     }
   }
 }
